@@ -8,6 +8,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
+
          <div style="background-color:linen;width:1000px;border-color:brown">
             <br />
             <br /><div style="text-align:center; border-style:double;border-color:brown;font-size:x-large">
@@ -32,13 +33,16 @@
         </div>
         <div>
             
+            <table><tr><td colspan="6">
+            <asp:Image ID="Image1" runat="server" Height="492px" Width="1000px" ImageUrl="~/library 1.jpg" />
+                </td></tr></table>
             <br />
-            <asp:Label ID="lblTitle" runat="server" Text="Title"></asp:Label><asp:Label runat="server" ID="lblSpace" Width="180px"></asp:Label><asp:Label ID="lblDescription" runat="server" Text="Description"></asp:Label><br />
+            <asp:Label ID="lblTitle" runat="server" Text="Title"></asp:Label>
             <br/>
             <asp:TextBox ID="txtSearch" runat="server"></asp:TextBox>
             <asp:Button ID="btnSearch" runat="server" Text="Search" OnClick="btnSearch_Click" />
            
-            <asp:TextBox ID="txtDescription" runat="server"></asp:TextBox>
+            
             <br />
             <asp:Label ID="Label1" runat="server" Text="Search available bibliographies below."></asp:Label>
             
