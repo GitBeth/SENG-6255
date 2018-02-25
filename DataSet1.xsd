@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Bibliography" msprop:Generator_TableClassName="BibliographyDataTable" msprop:Generator_TableVarName="tableBibliography" msprop:Generator_TablePropName="Bibliography" msprop:Generator_RowDeletingName="BibliographyRowDeleting" msprop:Generator_RowChangingName="BibliographyRowChanging" msprop:Generator_RowEvHandlerName="BibliographyRowChangeEventHandler" msprop:Generator_RowDeletedName="BibliographyRowDeleted" msprop:Generator_UserTableName="Bibliography" msprop:Generator_RowChangedName="BibliographyRowChanged" msprop:Generator_RowEvArgName="BibliographyRowChangeEvent" msprop:Generator_RowClassName="BibliographyRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Title" msprop:Generator_ColumnVarNameInTable="columnTitle" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnPropNameInTable="TitleColumn" msprop:Generator_UserColumnName="Title" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="In_x0020_Stock" msprop:Generator_ColumnVarNameInTable="columnIn_Stock" msprop:Generator_ColumnPropNameInRow="In_Stock" msprop:Generator_ColumnPropNameInTable="In_StockColumn" msprop:Generator_UserColumnName="In Stock" type="xs:string" minOccurs="0" />
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="UserRentals" msprop:Generator_TableClassName="UserRentalsDataTable" msprop:Generator_TableVarName="tableUserRentals" msprop:Generator_TablePropName="UserRentals" msprop:Generator_RowDeletingName="UserRentalsRowDeleting" msprop:Generator_RowChangingName="UserRentalsRowChanging" msprop:Generator_RowEvHandlerName="UserRentalsRowChangeEventHandler" msprop:Generator_RowDeletedName="UserRentalsRowDeleted" msprop:Generator_UserTableName="UserRentals" msprop:Generator_RowChangedName="UserRentalsRowChanged" msprop:Generator_RowEvArgName="UserRentalsRowChangeEvent" msprop:Generator_RowClassName="UserRentalsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UName" msprop:Generator_ColumnVarNameInTable="columnUName" msprop:Generator_ColumnPropNameInRow="UName" msprop:Generator_ColumnPropNameInTable="UNameColumn" msprop:Generator_UserColumnName="UName" type="xs:string" minOccurs="0" />
+              <xs:element name="NumberBooks" msprop:Generator_ColumnVarNameInTable="columnNumberBooks" msprop:Generator_ColumnPropNameInRow="NumberBooks" msprop:Generator_ColumnPropNameInTable="NumberBooksColumn" msprop:Generator_UserColumnName="NumberBooks" type="xs:string" minOccurs="0" />
+              <xs:element name="Title" msprop:Generator_ColumnVarNameInTable="columnTitle" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnPropNameInTable="TitleColumn" msprop:Generator_UserColumnName="Title" type="xs:string" minOccurs="0" />
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="UserAccount" msprop:Generator_TableClassName="UserAccountDataTable" msprop:Generator_TableVarName="tableUserAccount" msprop:Generator_TablePropName="UserAccount" msprop:Generator_RowDeletingName="UserAccountRowDeleting" msprop:Generator_RowChangingName="UserAccountRowChanging" msprop:Generator_RowEvHandlerName="UserAccountRowChangeEventHandler" msprop:Generator_RowDeletedName="UserAccountRowDeleted" msprop:Generator_UserTableName="UserAccount" msprop:Generator_RowChangedName="UserAccountRowChanged" msprop:Generator_RowEvArgName="UserAccountRowChangeEvent" msprop:Generator_RowClassName="UserAccountRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UName" msprop:Generator_ColumnVarNameInTable="columnUName" msprop:Generator_ColumnPropNameInRow="UName" msprop:Generator_ColumnPropNameInTable="UNameColumn" msprop:Generator_UserColumnName="UName" type="xs:string" minOccurs="0" />
+              <xs:element name="Address" msprop:Generator_ColumnVarNameInTable="columnAddress" msprop:Generator_ColumnPropNameInRow="Address" msprop:Generator_ColumnPropNameInTable="AddressColumn" msprop:Generator_UserColumnName="Address" type="xs:string" minOccurs="0" />
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="BibliographyKey1">
+      <xs:selector xpath=".//mstns:Bibliography" />
+      <xs:field xpath="mstns:Title" />
+    </xs:unique>
+    <xs:unique name="UserRentalsKey1">
+      <xs:selector xpath=".//mstns:UserRentals" />
+      <xs:field xpath="mstns:UName" />
+    </xs:unique>
+    <xs:unique name="UserAccountKey1">
+      <xs:selector xpath=".//mstns:UserAccount" />
+      <xs:field xpath="mstns:UName" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="Bibliography_UserRentals" msdata:parent="Bibliography" msdata:child="UserRentals" msdata:parentkey="Title" msdata:childkey="Title" msprop:Generator_UserChildTable="UserRentals" msprop:Generator_ChildPropName="GetUserRentalsRows" msprop:Generator_UserRelationName="Bibliography_UserRentals" msprop:Generator_ParentPropName="BibliographyRow" msprop:Generator_RelationVarName="relationBibliography_UserRentals" msprop:Generator_UserParentTable="Bibliography" />
+      <msdata:Relationship name="UserRentals_UserAccount" msdata:parent="UserRentals" msdata:child="UserAccount" msdata:parentkey="UName" msdata:childkey="UName" msprop:Generator_UserChildTable="UserAccount" msprop:Generator_ChildPropName="GetUserAccountRows" msprop:Generator_UserRelationName="UserRentals_UserAccount" msprop:Generator_ParentPropName="UserRentalsRow" msprop:Generator_RelationVarName="relationUserRentals_UserAccount" msprop:Generator_UserParentTable="UserRentals" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>
